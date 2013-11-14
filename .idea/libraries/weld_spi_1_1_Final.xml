@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="weld-spi-1.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.jboss.weld/weld-spi/1.1.Final/jar/5b99b236675aba9a0330cab05ee027a23c04ff84/weld-spi-1.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.jboss.weld/weld-spi/1.1.Final/source/1d7b78e012417c1653c72b424e9b26a15c5b7564/weld-spi-1.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
