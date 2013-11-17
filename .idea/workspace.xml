@@ -25,24 +25,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0891234-b7c7-4dab-9774-ef8ea6701c0e" name="Default" comment="integration tests build">
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\common\ConfigValue.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\common\ConfigurationInjectionManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\dao\PostDao.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\dao\PostDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\domain\Comment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\domain\Post.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\rest\BlogService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\rest\ResourceNotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\libs\Blog-1.0.war" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\resources\main\META-INF\beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\tmp\war\MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java" />
+    <list default="true" id="f0891234-b7c7-4dab-9774-ef8ea6701c0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2e656749-c63e-4ca5-b1d0-d025f96741b9" name="do not commit" comment="" />
@@ -67,7 +50,7 @@
     <file path="/ConfigurationInjectionManagerTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378065591224" ignored="false" />
     <file path="/ConfigurationInjectionManager.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384687753029" ignored="false" />
     <file path="E:/workspace/Centiva/trunk/src.scala/bootstrap/liftweb/Boot.scala" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553666799" ignored="false" />
-    <file path="/Dummy.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384723170426" ignored="false" />
+    <file path="/Dummy.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384723494440" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/main/com/sabre/centiva/pci/crouter/logic/dom/DomXpathContentTransformer.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539410423" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/test/com/sabre/centiva/pci/crouter/logic/dom/DomTestUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539722591" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/configuration/local/routing-table.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
@@ -964,7 +947,11 @@
       <created>1384698947154</created>
       <updated>1384698947154</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="integration tests build">
+      <created>1384723500519</created>
+      <updated>1384723500519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
