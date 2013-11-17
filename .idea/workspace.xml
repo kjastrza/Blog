@@ -50,7 +50,7 @@
     <file path="/ConfigurationInjectionManagerTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378065591224" ignored="false" />
     <file path="/ConfigurationInjectionManager.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384687753029" ignored="false" />
     <file path="E:/workspace/Centiva/trunk/src.scala/bootstrap/liftweb/Boot.scala" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553666799" ignored="false" />
-    <file path="/Dummy.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384723494440" ignored="false" />
+    <file path="/Dummy.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384723516995" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/main/com/sabre/centiva/pci/crouter/logic/dom/DomXpathContentTransformer.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539410423" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/test/com/sabre/centiva/pci/crouter/logic/dom/DomTestUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539722591" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/configuration/local/routing-table.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
@@ -951,7 +951,11 @@
       <created>1384723500519</created>
       <updated>1384723500519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="integration tests build">
+      <created>1384723519907</created>
+      <updated>1384723519907</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
