@@ -8,13 +8,14 @@ import java.text.MessageFormat;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
+@SuppressWarnings("UnusedDeclaration")
 @Startup
 @Singleton
 public class ConfigurationInjectionManager {
-    static final String INVALID_KEY = "Invalid key '{0}'";
-    static final String MANDATORY_PARAM_MISSING = "No definition found for a mandatory configuration parameter : '{0}'";
-    private final String BUNDLE_FILE_NAME = "application";
-    private final ResourceBundle bundle = ResourceBundle.getBundle(BUNDLE_FILE_NAME);
+    private static final String INVALID_KEY = "Invalid key '{0}'";
+    private static final String MANDATORY_PARAM_MISSING = "No definition found for a mandatory configuration parameter : '{0}'";
+    private static final String BUNDLE_FILE_NAME = "application";
+    private static final ResourceBundle BUNDLE = ResourceBundle.getBundle(BUNDLE_FILE_NAME);
 
     @Produces
     @ConfigValue
@@ -25,7 +26,7 @@ public class ConfigurationInjectionManager {
         }
         String value;
         try {
-            value = bundle.getString(param.key());
+            value = BUNDLE.getString(param.key());
             if (value == null || value.trim().length() == 0) {
                 if (param.mandatory())
                     throw new IllegalStateException(MessageFormat.format(MANDATORY_PARAM_MISSING, param.key()));

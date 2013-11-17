@@ -10,6 +10,8 @@ import org.junit.Test;
 
 import java.io.IOException;
 
+import static integration.TestUtils.getUrl;
+
 /**
  * Created with IntelliJ IDEA.
  * User: SG0891891
@@ -17,12 +19,11 @@ import java.io.IOException;
  * Time: 9:59 PM
  */
 public class ResponseCodeTest {
-    private static final String APP_CONTEXT = "Blog_Web_exploded";
 
     @Test
     public void shouldReceive200Response() throws IOException {
         HttpClient httpClient = new DefaultHttpClient();
-        HttpUriRequest request = new HttpGet("http://localhost:8080/" + APP_CONTEXT + "/rest/posts/");
+        HttpUriRequest request = new HttpGet(getUrl("/rest/posts/"));
         HttpResponse httpResponse = httpClient.execute(request);
         Assert.assertEquals(200, httpResponse.getStatusLine().getStatusCode());
     }
@@ -30,7 +31,7 @@ public class ResponseCodeTest {
     @Test
     public void shouldReceive404Response() throws IOException {
         HttpClient httpClient = new DefaultHttpClient();
-        HttpUriRequest request = new HttpGet("http://localhost:8080/" + APP_CONTEXT + "/rest/posts/123");
+        HttpUriRequest request = new HttpGet(getUrl("/rest/posts/123"));
         HttpResponse httpResponse = httpClient.execute(request);
         Assert.assertEquals(404, httpResponse.getStatusLine().getStatusCode());
     }

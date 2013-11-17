@@ -26,6 +26,15 @@ repositories {
     }
 }
 
+configurations {
+    integrationTestCompile {
+        extendsFrom testCompile
+    }
+    integrationTestRuntime {
+        extendsFrom integrationTestCompile, testRuntime
+    }
+}
+
 war {
     from('environment/dev') {
         include 'application.properties'
@@ -72,14 +81,17 @@ dependencies {
     cargo group: 'org.jboss.as', name: 'jboss-as-controller-client', version: '7.1.1.Final'
 }
 sourceSets {
-    main {
-        java {
-            srcDir 'src/java'
-        }
-        resources {
-            srcDir 'src/resources'
-        }
+    integrationTest {
+        java.srcDir file('src/integrationTest/java')
+        resources.srcDir file('src/integrationTest/resources')
+        compileClasspath = sourceSets.main.output + configurations.integrationTestCompile
+        runtimeClasspath = output + compileClasspath
     }
+}
+
+task integrationTest(type: Test, dependsOn: jar) {
+    testClassesDir = sourceSets.integrationTest.output.classesDir
+    classpath = sourceSets.integrationTest.runtimeClasspath
 }
 
 cargo {
