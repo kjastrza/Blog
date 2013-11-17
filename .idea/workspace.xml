@@ -25,11 +25,27 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0891234-b7c7-4dab-9774-ef8ea6701c0e" name="Default" comment="" />
-    <list id="2e656749-c63e-4ca5-b1d0-d025f96741b9" name="do not commit" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="f0891234-b7c7-4dab-9774-ef8ea6701c0e" name="Default" comment="integration tests build">
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\common\ConfigValue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\common\ConfigurationInjectionManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\dao\PostDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\dao\PostDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\domain\Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\domain\Post.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\rest\BlogService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\classes\main\kj\rest\rest\ResourceNotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\libs\Blog-1.0.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\resources\main\META-INF\beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sg0891891\Documents\GitHub\Blog\build\tmp\war\MANIFEST.MF" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="2e656749-c63e-4ca5-b1d0-d025f96741b9" name="do not commit" comment="" />
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/PostsService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378046006106" ignored="false" />
@@ -37,7 +53,7 @@
     <file path="/PostService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378046234627" ignored="false" />
     <file path="/PostServiceImpl.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378046248945" ignored="false" />
     <file path="/fragment.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384288426530" ignored="false" />
-    <file path="/PostDaoImpl.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384290933395" ignored="false" />
+    <file path="/PostDaoImpl.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384722918363" ignored="false" />
     <file path="/config.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1377982447355" ignored="false" />
     <file path="/ConfigurationFactory.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1377983328355" ignored="false" />
     <file path="/application.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384688073801" ignored="false" />
@@ -45,13 +61,13 @@
     <file path="/Comment.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378024886086" ignored="false" />
     <file path="/Blog.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378055516091" ignored="false" />
     <file path="/PostDao.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384290374427" ignored="false" />
-    <file path="/PostDaoImplTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1381090261451" ignored="false" />
+    <file path="/PostDaoImplTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384723032520" ignored="false" />
     <file path="/a.dummy" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384464735658" ignored="false" />
     <file path="/BlogService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384290584320" ignored="false" />
     <file path="/ConfigurationInjectionManagerTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378065591224" ignored="false" />
     <file path="/ConfigurationInjectionManager.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384687753029" ignored="false" />
     <file path="E:/workspace/Centiva/trunk/src.scala/bootstrap/liftweb/Boot.scala" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553666799" ignored="false" />
-    <file path="/Dummy.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384698938834" ignored="false" />
+    <file path="/Dummy.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384723170426" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/main/com/sabre/centiva/pci/crouter/logic/dom/DomXpathContentTransformer.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539410423" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/test/com/sabre/centiva/pci/crouter/logic/dom/DomTestUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539722591" ignored="false" />
     <file path="E:/workspace/Centiva/as-centiva-pci/crouter/configuration/local/routing-table.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
@@ -130,7 +146,6 @@
     <file path="/gradle.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384293416025" ignored="false" />
     <file path="/dev.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384462732761" ignored="false" />
     <file path="/kjtest.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384467689486" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384467922088" ignored="false" />
     <file path="/TestUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384688265970" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +162,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java" line="81" class="kj.rest.dao.PostDaoImpl" package="kj.rest.dao">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java" line="66" class="kj.rest.dao.PostDaoImplTest" package="kj.rest.dao">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -218,66 +233,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigurationInjectionManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/common/ConfigurationInjectionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="39" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/environment/dev/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="34" selection-end="39" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BlogService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/rest/BlogService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="32" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="51" column="35" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/integrationTest/resources/test.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseCodeTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ResponseCodeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/ResponseCodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="17" selection-start="467" selection-end="467" vertical-scroll-proportion="0.34517765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://E:/workspace/Centiva/as-centiva-adminpanel/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="508" selection-end="530" vertical-scroll-proportion="0.0">
+            <state line="21" column="18" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -286,7 +254,54 @@
       <file leaf-file-name="PostDaoImplTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="44" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+            <state line="52" column="59" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostDaoImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="16" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.46766168">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicDBObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/com/mongodb/BasicDBObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="13" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicBSONObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/org/bson/BasicBSONObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="314" column="19" selection-start="8776" selection-end="8776" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBCollection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/com/mongodb/DBCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="23" selection-start="3183" selection-end="3183" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBApiLayer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/com/mongodb/DBApiLayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="203" column="24" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -425,15 +440,15 @@
       <list>
         <GradleTaskDescriptor>
           <option name="executorId" value="Run" />
-          <option name="name" value="war" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="executorId" value="Run" />
           <option name="name" value="clean" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="executorId" value="Run" />
           <option name="name" value="cargoRedeployRemote" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="executorId" value="Run" />
+          <option name="name" value="war" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="executorId" value="Run" />
@@ -455,8 +470,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/kj/rest/rest/BlogService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kj/rest/rest/BlogService2.java" />
         <option value="$PROJECT_DIR$/src/main/java/kj/rest/common/ConfigurationInjectionManager2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/environment/dev/application.properties" />
@@ -471,6 +484,8 @@
         <option value="$PROJECT_DIR$/src/test/java/integration/TestUtils.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/integrationTest/java/integration/ResponseCodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java" />
       </list>
     </option>
   </component>
@@ -601,53 +616,12 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Groovy.gradle:war">
+  <component name="RunManager" selected="Groovy.gradle:clean">
     <configuration default="false" name="gradle:cargoRedeployRemote" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="Blog" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
       <setting name="vmparams" value="" />
       <setting name="params" value="cargoRedeployRemote" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="false" name="ResponseCodeTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Blog" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="integration" />
-      <option name="MAIN_CLASS_NAME" value="integration.ResponseCodeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="gradle:jar" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="Blog" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="jar" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
       <RunnerSettings RunnerId="Run" />
@@ -681,6 +655,68 @@
       <method>
         <option name="Make" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="false" name="PostDaoImplTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kj.rest.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Blog" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="kj.rest.dao" />
+      <option name="MAIN_CLASS_NAME" value="kj.rest.dao.PostDaoImplTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PostDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kj.rest.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Blog" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="kj.rest.dao" />
+      <option name="MAIN_CLASS_NAME" value="kj.rest.dao.PostDaoImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -871,18 +907,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.2.0.Final-redhat-8" />
       <item index="1" class="java.lang.String" itemvalue="Groovy.gradle:cargoRedeployRemote" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ResponseCodeTest" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.gradle:jar" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
-      <item index="5" class="java.lang.String" itemvalue="Groovy.gradle:war" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.gradle:war" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PostDaoImplTest.testCreate" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PostDaoImplTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.gradle:war" />
-        <item index="1" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.gradle:cargoRedeployRemote" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ResponseCodeTest" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.gradle:jar" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.gradle:cargoRedeployRemote" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PostDaoImplTest.testCreate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PostDaoImplTest" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.gradle:war" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -936,33 +972,33 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882884" sideWeight="0.67176634" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.5688456" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4589708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24774775" sideWeight="0.67176634" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43115437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53129345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882884" sideWeight="0.67176634" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4589708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1032,55 +1068,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://E:/tools/gradle-1.7/lib/groovy-all-1.8.6.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4360" column="2" selection-start="122040" selection-end="122040" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/rest/ResourceNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="217" selection-end="217" vertical-scroll-proportion="0.17171717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/rest/BlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="32" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/common/ConfigurationInjectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="39" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
@@ -1116,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/TestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="42" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
@@ -1146,8 +1126,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/ResponseCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="467" selection-end="467" vertical-scroll-proportion="0.34517765">
+        <state line="21" column="18" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/com/mongodb/DBApiLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="24" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/rest/BlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="35" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/org/bson/BasicBSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="314" column="19" selection-start="8776" selection-end="8776" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/com/mongodb/BasicDBObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.mongodb/mongo-java-driver/2.11.2/source/43d481645108fe6320096d6ba38517edae264924/mongo-java-driver-2.11.2-sources.jar!/com/mongodb/DBCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="23" selection-start="3183" selection-end="3183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="59" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="16" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.46766168">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

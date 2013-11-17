@@ -26,12 +26,12 @@ import java.util.List;
  */
 @Default
 public class PostDaoImpl implements PostDao {
-    private static final String CONTENT = "content";
-    private static final String TITLE = "title";
-    private static final String CREATION_DATE = "creationDate";
-    private static final String ID = "_id";
-    private static final String POSTS_COLLECTION = "posts";
-    private static final String COMMENTS = "comments";
+    static final String CONTENT = "content";
+    static final String TITLE = "title";
+    static final String CREATION_DATE = "creationDate";
+    static final String ID = "_id";
+    static final String POSTS_COLLECTION = "posts";
+    static final String COMMENTS = "comments";
 
     Logger logger = LoggerFactory.getLogger(PostDaoImpl.class);
     @Inject
@@ -46,14 +46,8 @@ public class PostDaoImpl implements PostDao {
 
     private DB db;
 
-    @VisibleForTesting
     public void setDb(DB db) {
         this.db = db;
-    }
-
-    @VisibleForTesting
-    public void setHost(String host) {
-        this.host = host;
     }
 
     @PostConstruct
@@ -66,33 +60,28 @@ public class PostDaoImpl implements PostDao {
         }
     }
 
-    @VisibleForTesting
-    public void setPort(String port) {
-        this.port = port;
-    }
-
-    @VisibleForTesting
-    public void setDbName(String dbName) {
-        this.dbName = dbName;
-    }
-
     @Override
     public String create(Post post) {
         DBCollection postsCollection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject document = new BasicDBObject();
         document.put(CONTENT, post.getContent());
         document.put(TITLE, post.getTitle());
-        document.put(CREATION_DATE, new Date());
+        document.put(CREATION_DATE, post.getCreationDate());
         postsCollection.insert(document);
-        String postId = String.valueOf(document.get(ID));
+        String postId = getCreatedId(document);
         logger.info("New Post Created With Id: [ " + postId + " ]");
 
         return postId;
     }
 
+    @VisibleForTesting
+    protected String getCreatedId(BasicDBObject document) {
+        return String.valueOf(document.get(ID));
+    }
+
     @Override
     public String createComment(String postId, Comment comment) {
-        DBCollection collection = getDb().getCollection(POSTS_COLLECTION);
+        DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
         ObjectId newCommentId = new ObjectId();
         BasicDBObject newDocument = new BasicDBObject();
@@ -107,7 +96,7 @@ public class PostDaoImpl implements PostDao {
 
     @Override
     public String deleteComment(String postId, String commentId) {
-        DBCollection collection = getDb().getCollection(POSTS_COLLECTION);
+        DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
         ObjectId commentObjectId = new ObjectId(commentId);
         BasicDBObject commentToRemove = new BasicDBObject();
@@ -121,7 +110,7 @@ public class PostDaoImpl implements PostDao {
 
     @Override
     public String updateContent(String postId, String content) {
-        DBCollection collection = getDb().getCollection(POSTS_COLLECTION);
+        DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
         BasicDBObject newDocument = new BasicDBObject();
         newDocument.put(CONTENT, content);
@@ -134,27 +123,16 @@ public class PostDaoImpl implements PostDao {
 
     @Override
     public String delete(String postId) {
-        DBCollection collection = getDb().getCollection(POSTS_COLLECTION);
+        DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
         WriteResult result = collection.remove(query);
 
         return result.toString();
     }
 
-    protected DB getDb() {
-        MongoClient mongoClient;
-        try {
-            mongoClient = new MongoClient(host, Integer.parseInt(port));
-        } catch (UnknownHostException e) {
-            logger.error("Error while creating mongo client", e);
-            throw new IllegalStateException(e);
-        }
-        return mongoClient.getDB(dbName);
-    }
-
     @Override
     public Post find(String postId) throws ResourceNotFoundException {
-        DBCollection collection = getDb().getCollection(POSTS_COLLECTION);
+        DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject searchQuery;
         try {
             searchQuery = new BasicDBObject(ID, new ObjectId(postId));
@@ -175,7 +153,7 @@ public class PostDaoImpl implements PostDao {
     @Override
     public List<Post> findAll() {
         List<Post> posts = Lists.newArrayList();
-        DBCollection collection = getDb().getCollection(POSTS_COLLECTION);
+        DBCollection collection = db.getCollection(POSTS_COLLECTION);
         DBCursor cursor = collection.find();
 
         while (cursor.hasNext()) {
