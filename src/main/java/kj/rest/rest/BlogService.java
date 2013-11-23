@@ -79,7 +79,7 @@ public class BlogService {
 
     @DELETE
     @Path("/{postId}/comments/{commentId}")
-    public Response deletePost(@PathParam("postId") String postId, @PathParam("commentId") String commentId) {
+    public Response deleteComment(@PathParam("postId") String postId, @PathParam("commentId") String commentId) {
         String result = postDao.deleteComment(postId, commentId);
         return Response.status(200).entity(result).build();
     }
