@@ -36,7 +36,7 @@ configurations {
 }
 
 war {
-    from('environment/dev') {
+    from('environment/' + warEnv) {
         include 'application.properties'
         into 'WEB-INF/classes/'
     }
