@@ -1,5 +1,6 @@
-package kj.rest.rest;
+package kj.rest.service;
 
+import kj.rest.common.ResourceNotFoundException;
 import kj.rest.dao.PostDao;
 import kj.rest.domain.Comment;
 import kj.rest.domain.Post;

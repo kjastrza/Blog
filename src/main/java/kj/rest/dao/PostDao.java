@@ -2,7 +2,7 @@ package kj.rest.dao;
 
 import kj.rest.domain.Comment;
 import kj.rest.domain.Post;
-import kj.rest.rest.ResourceNotFoundException;
+import kj.rest.common.ResourceNotFoundException;
 
 import java.util.List;
 

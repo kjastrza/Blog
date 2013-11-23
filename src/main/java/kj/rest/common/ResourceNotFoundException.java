@@ -1,4 +1,4 @@
-package kj.rest.rest;
+package kj.rest.common;
 
 /**
  * Created with IntelliJ IDEA.

@@ -6,7 +6,7 @@ import com.mongodb.*;
 import kj.rest.common.ConfigValue;
 import kj.rest.domain.Comment;
 import kj.rest.domain.Post;
-import kj.rest.rest.ResourceNotFoundException;
+import kj.rest.common.ResourceNotFoundException;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
