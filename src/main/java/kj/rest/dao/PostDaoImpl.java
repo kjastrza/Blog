@@ -4,9 +4,9 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.Lists;
 import com.mongodb.*;
 import kj.rest.common.ConfigValue;
+import kj.rest.common.ResourceNotFoundException;
 import kj.rest.domain.Comment;
 import kj.rest.domain.Post;
-import kj.rest.common.ResourceNotFoundException;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,6 +46,7 @@ public class PostDaoImpl implements PostDao {
 
     private DB db;
 
+    @VisibleForTesting
     public void setDb(DB db) {
         this.db = db;
     }
@@ -82,7 +83,7 @@ public class PostDaoImpl implements PostDao {
     @Override
     public String createComment(String postId, Comment comment) {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
-        BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
+        BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
         ObjectId newCommentId = new ObjectId();
         BasicDBObject newDocument = new BasicDBObject();
         newDocument.put(ID, newCommentId);
@@ -94,11 +95,16 @@ public class PostDaoImpl implements PostDao {
         return String.valueOf(newCommentId);
     }
 
+    @VisibleForTesting
+    ObjectId createObjectId(String postId) {
+        return new ObjectId(postId);
+    }
+
     @Override
     public String deleteComment(String postId, String commentId) {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
-        BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
-        ObjectId commentObjectId = new ObjectId(commentId);
+        BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
+        ObjectId commentObjectId = createObjectId(commentId);
         BasicDBObject commentToRemove = new BasicDBObject();
         commentToRemove.put(ID, commentObjectId);
         BasicDBObject updateObj = new BasicDBObject();
@@ -111,7 +117,7 @@ public class PostDaoImpl implements PostDao {
     @Override
     public String updateContent(String postId, String content) {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
-        BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
+        BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
         BasicDBObject newDocument = new BasicDBObject();
         newDocument.put(CONTENT, content);
         BasicDBObject updateObj = new BasicDBObject();
@@ -124,7 +130,7 @@ public class PostDaoImpl implements PostDao {
     @Override
     public String delete(String postId) {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
-        BasicDBObject query = new BasicDBObject(ID, new ObjectId(postId));
+        BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
         WriteResult result = collection.remove(query);
 
         return result.toString();
@@ -135,7 +141,7 @@ public class PostDaoImpl implements PostDao {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject searchQuery;
         try {
-            searchQuery = new BasicDBObject(ID, new ObjectId(postId));
+            searchQuery = new BasicDBObject(ID, createObjectId(postId));
         } catch (IllegalArgumentException e) {
             throw new ResourceNotFoundException(String.format("Post with id [%s] not found", postId));
         }

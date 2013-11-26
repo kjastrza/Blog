@@ -6,9 +6,11 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.net.UnknownHostException;
 
 import static integration.TestUtils.getUrl;
 
@@ -19,6 +21,11 @@ import static integration.TestUtils.getUrl;
  * Time: 9:59 PM
  */
 public class ResponseCodeTest {
+
+    @Before
+    public void setUp() throws UnknownHostException {
+        TestUtils.clearDB();
+    }
 
     @Test
     public void shouldReceive200Response() throws IOException {
