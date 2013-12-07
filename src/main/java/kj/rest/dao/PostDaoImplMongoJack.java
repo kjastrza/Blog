@@ -1,27 +1,32 @@
 package kj.rest.dao;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.collect.Lists;
-import com.mongodb.*;
-import com.mongodb.DBCursor;
-import com.mongodb.WriteResult;
-import kj.rest.common.ConfigValue;
-import kj.rest.common.ResourceNotFoundException;
-import kj.rest.domain.Comment;
-import kj.rest.domain.Post;
-import org.bson.types.ObjectId;
-import org.mongojack.*;
-import org.mongojack.internal.MongoJackModule;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import javax.annotation.PostConstruct;
 import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 import java.net.UnknownHostException;
 import java.util.Date;
 import java.util.List;
+
+import com.google.common.annotations.VisibleForTesting;
+import com.google.common.collect.Lists;
+import com.mongodb.BasicDBList;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.WriteResult;
+import kj.rest.common.ConfigValue;
+import kj.rest.common.ResourceNotFoundException;
+import kj.rest.domain.Comment;
+import kj.rest.domain.Post;
+import org.bson.types.ObjectId;
+import org.mongojack.DBQuery;
+import org.mongojack.DBUpdate;
+import org.mongojack.JacksonDBCollection;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Created with IntelliJ IDEA.
@@ -61,10 +66,7 @@ public class PostDaoImplMongoJack implements PostDao {
     public void afterConstruction() {
         try {
             db = new MongoClient(host, Integer.parseInt(port)).getDB(dbName);
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.addMixInAnnotations(ObjectId.class, String.class);
-            MongoJackModule.configure(objectMapper);
-            coll = JacksonDBCollection.wrap(db.getCollection(POSTS_COLLECTION), Post.class, String.class, objectMapper);
+            coll = JacksonDBCollection.wrap(db.getCollection(POSTS_COLLECTION), Post.class, String.class);
         } catch (UnknownHostException e) {
             logger.error("Error while creating mongo client", e);
             throw new IllegalStateException(e);
@@ -73,11 +75,16 @@ public class PostDaoImplMongoJack implements PostDao {
 
     @Override
     public String create(Post post) {
-        org.mongojack.WriteResult<Post,String> insertResult = coll.insert(post);
+        org.mongojack.WriteResult<Post, String> insertResult = coll.insert(post);
         String postId = insertResult.getSavedId();
         logger.info("New Post Created With Id: [ " + postId + " ]");
 
         return postId;
+    }
+
+    @Override
+    public void markAsDisplayed(String title) {
+        coll.updateMulti(DBQuery.is("title", title), DBUpdate.set("displayed", true));
     }
 
     @VisibleForTesting
@@ -87,15 +94,9 @@ public class PostDaoImplMongoJack implements PostDao {
 
     @Override
     public String createComment(String postId, Comment comment) {
-        DBCollection collection = db.getCollection(POSTS_COLLECTION);
-        BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
         ObjectId newCommentId = new ObjectId();
-        BasicDBObject newDocument = new BasicDBObject();
-        newDocument.put(ID, newCommentId);
-        newDocument.put(CONTENT, comment.getContent());
-        BasicDBObject updateObj = new BasicDBObject();
-        updateObj.put("$push", new BasicDBObject(COMMENTS, newDocument));
-        collection.update(query, updateObj);
+        comment.setId(newCommentId.toString());
+        coll.updateById(postId, DBUpdate.push(COMMENTS, comment));
 
         return String.valueOf(newCommentId);
     }

@@ -86,6 +86,7 @@
     <orderEntry type="library" exported="" name="jackson-annotations-2.3.0" level="project" />
     <orderEntry type="library" exported="" name="jackson-databind-2.3.0" level="project" />
     <orderEntry type="library" exported="" name="mongojack-2.0.0-RC5" level="project" />
+    <orderEntry type="library" name="net.vz.mongodb.jackson:mongo-jackson-mapper:1.4.2" level="project" />
   </component>
 </module>
 

@@ -17,6 +17,7 @@ public class Post {
     private Date creationDate;
     private String title;
     private String content;
+    private boolean displayed;
     private List<Comment> comments;
 
     public Post(String title, String content) {
@@ -69,6 +70,14 @@ public class Post {
 
     public void setComments(List<Comment> comments) {
         this.comments = comments;
+    }
+
+    public boolean isDisplayed() {
+        return displayed;
+    }
+
+    public void setDisplayed(boolean displayed) {
+        this.displayed = displayed;
     }
 
     @Override

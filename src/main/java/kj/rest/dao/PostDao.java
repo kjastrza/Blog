@@ -26,4 +26,6 @@ public interface PostDao {
     String updateContent(String postId, String content);
 
     String delete(String postId);
+
+    void markAsDisplayed(String title);
 }

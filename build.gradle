@@ -69,6 +69,7 @@ dependencies {
     compile 'ch.qos.logback:logback-classic:1.0.11'
     compile 'org.mongodb:mongo-java-driver:2.11.2'
     compile 'org.mongojack:mongojack:2.0.0-RC5'
+    compile 'net.vz.mongodb.jackson:mongo-jackson-mapper:1.4.2'
     providedCompile 'org.jboss.resteasy:resteasy-jaxrs:2.3.6.Final'
     providedCompile 'org.jboss.weld:weld-core:1.1.6.Final'
     providedCompile 'jboss:jboss-annotations-ejb3:4.2.2.GA'
