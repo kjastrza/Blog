@@ -1,8 +1,0 @@
-<component name="libraryTable">
-  <library name="ch.qos.logback:logback-classic:1.0.11" type="repository">
-    <properties maven-id="ch.qos.logback:logback-classic:1.0.11" />
-    <CLASSES />
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

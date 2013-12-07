@@ -3,6 +3,9 @@ package kj.rest.domain;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import org.mongojack.ObjectId;
+
 /**
  * Created with IntelliJ IDEA.
  * User: SG0891891
@@ -24,10 +27,14 @@ public class Post {
     public Post() {
     }
 
+    @ObjectId
+    @JsonProperty("_id")
     public String getId() {
         return id;
     }
 
+    @ObjectId
+    @JsonProperty("_id")
     public void setId(String id) {
         this.id = id;
     }
