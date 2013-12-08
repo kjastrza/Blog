@@ -1,8 +1,0 @@
-<component name="libraryTable">
-  <library name="net.vz.mongodb.jackson:mongo-jackson-mapper:1.4.2" type="repository">
-    <properties maven-id="net.vz.mongodb.jackson:mongo-jackson-mapper:1.4.2" />
-    <CLASSES />
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
