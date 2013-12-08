@@ -1,120 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="f0891234-b7c7-4dab-9774-ef8ea6701c0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.iml" afterPath="$PROJECT_DIR$/Blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <list id="2e656749-c63e-4ca5-b1d0-d025f96741b9" name="do not commit" comment="" />
-    <ignored path="Blog.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <file path="/PostsService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378046006106" ignored="false" />
-    <file path="/Post.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378026975020" ignored="false" />
-    <file path="/PostService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378046234627" ignored="false" />
-    <file path="/PostServiceImpl.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378046248945" ignored="false" />
-    <file path="/fragment.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384288426530" ignored="false" />
-    <file path="/PostDaoImpl.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384722918363" ignored="false" />
-    <file path="/config.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1377982447355" ignored="false" />
-    <file path="/ConfigurationFactory.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1377983328355" ignored="false" />
-    <file path="/application.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384688073801" ignored="false" />
-    <file path="/Config.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1377984271028" ignored="false" />
-    <file path="/Comment.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378024886086" ignored="false" />
-    <file path="/Blog.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378055516091" ignored="false" />
-    <file path="/PostDao.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384290374427" ignored="false" />
-    <file path="/PostDaoImplTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384723032520" ignored="false" />
-    <file path="/a.dummy" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384464735658" ignored="false" />
-    <file path="/BlogService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384290584320" ignored="false" />
-    <file path="/ConfigurationInjectionManagerTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1378065591224" ignored="false" />
-    <file path="/ConfigurationInjectionManager.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384687753029" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.scala/bootstrap/liftweb/Boot.scala" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553666799" ignored="false" />
-    <file path="/Dummy.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1386502951435" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/main/com/sabre/centiva/pci/crouter/logic/dom/DomXpathContentTransformer.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539410423" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/test/com/sabre/centiva/pci/crouter/logic/dom/DomTestUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539722591" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/configuration/local/routing-table.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/configuration/local/crouter.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/jmeter_test/crouter.jmx" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/main/com/sabre/centiva/pci/crouter/configuration/impl/PropertiesConfigurationProvider.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/test/com/sabre/centiva/pci/crouter/logic/dom/DomXpathContentTransformerTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/mockcentiva/mockcentiva.iml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/src/java/test/com/sabre/centiva/pci/crouter/logic/dom/resources/TransactionRQWithCCInFareCalc.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380529792736" ignored="false" />
-    <file path="E:/workspace/Centiva/as-centiva-pci/crouter/.idea/workspace.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553680291" ignored="false" />
-    <file path="/DomTestUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380539719315" ignored="false" />
-    <file path="E:/workspace/SQMFramework/FunctionalTesting/FunctionalTestsCentiva/src/test/java/tb/auto/smoketests/TestWebServicesSanity.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553647746" ignored="false" />
-    <file path="/TestWebServicesSanity.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380540196026" ignored="false" />
-    <file path="E:/workspace/SQMFramework/FunctionalTesting/FunctionalTestsCentiva/src/main/java/core/LoyaltySystem.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553647746" ignored="false" />
-    <file path="E:/workspace/SQMFramework/FunctionalTesting/JavaIntegrationFramework/src/main/java/com/sabre/cas/loyalty/sqm/jif/gui/HtmlGui.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380553647746" ignored="false" />
-    <file path="E:/workspace/SQMFramework/FunctionalTesting/FunctionalTestsCentiva/src/main/java/tdp/TestDataProviderSwitch.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380542105700" ignored="false" />
-    <file path="/TestDataProviderSwitch.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380540798923" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/user-web/WEB-INF/web.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128004971" ignored="false" />
-    <file path="/Boot.scala" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1380545132804" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/utils/log/LogContext.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382129928493" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/utils/log/filters/LogContextFilter.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382131132037" ignored="false" />
-    <file path="/LogContextFilter.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382125818540" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/configuration/common/web/tmpl/log4j.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382532079944" ignored="false" />
-    <file path="/log4j.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128437611" ignored="false" />
-    <file path="/LogContext.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382129928066" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/centiva/webservices/account/UpdateAccountService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128731711" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/centiva/webservices/balance/BalanceService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128731711" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/centiva/profile/ProfileAccountService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128731711" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/wsapi/controller/WSAPIServlet.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128731711" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/centiva/webservices/balance/PaymentWebService.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128731711" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/utils/log/filters/LogContextFilterAdmin.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382128789528" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/utils/log/filters/LogContextFilterEUP.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382129219581" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/struts/centiva/commons/WebUser.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382515768766" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/utils/log/LogUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382515750832" ignored="false" />
-    <file path="/LogUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382129063655" ignored="false" />
-    <file path="/LogContextFilterEUP.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382129219581" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/struts/centiva/actions/admin/AdminUserManagementAction.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382335026259" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/struts/centiva/actions/admin/AdminUserDetailsAction.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382335026259" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.processing/com/sabre/cas/centiva/processing/quasarexport/QuasarExportProcess.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382131505722" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/portal/webservice/SSOTokenFilter.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382131505722" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/centiva/resources/communityPortalServiceContext.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382131505722" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/centiva/resources/perfMonitoringContext.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382131505722" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.processing/com/sabre/cas/centiva/processing/CentivaProcessBuilder.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382131628006" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/.idea/inspectionProfiles/unusedCodeInspections.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382335028746" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/.idea/misc.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382342710897" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/configuration/common/web/tmpl/logback.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382511630693" ignored="false" />
-    <file path="/logback.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382511627672" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/configuration/common/web/tmpl/momconfig.xml" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382473320737" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/struts/centiva/commons/SessionLifecycleListener.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382510702525" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/struts/centiva/actions/BaseAction.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382510702525" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/centiva/base/RelativePathHandler.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382510702525" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/xml/AsyncEmailBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382517378699" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/KJTest2.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382527858302" ignored="false" />
-    <file path="/KJTest2.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382527857891" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/centiva/mom/DefaultMessageListenerContainer.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529765273" ignored="false" />
-    <file path="/DefaultMessageListenerContainer.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382518946151" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/xml/AsyncWelcomeEmailBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529717215" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/xml/AsyncWelcomeSecondaryEmailBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529742480" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/xml/AsyncSecondaryAddedEmailBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529634068" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/xml/AsyncSecondaryDeletedEmailBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529660973" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/xml/AsyncPurchaseEmailBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529590522" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/xml/AsyncServiceCreditNotificationEmailBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529698999" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/utils/email/VoidDebitEmail.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382529863765" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/centiva/mom/PropertyAccessor.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382526799260" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/redem/RedemptionFlightSegBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382531278274" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src.web/com/sabre/cas/centiva/webservices/xml/bindings/base/Segment.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382527009820" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/lib/sems-1.5.2.1.jar!/com/sabre/messaging/service/impl/ServiceContext.class" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382527169950" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/lib/commons-lang-2.6.jar!/org/apache/commons/lang/builder/ToStringBuilder.class" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382527169950" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/centiva/userprofile/model/CustomerApplicationProfile.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382530166179" ignored="false" />
-    <file path="E:/workspace/Centiva/trunk/src/com/sabre/cas/loyalty/crystal/model/redem/RedemptionRequestBean.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1382530311136" ignored="false" />
-    <file path="/ResponseCodeTest.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384688353491" ignored="false" />
-    <file path="/build.gradle" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384692200155" ignored="false" />
-    <file path="/test.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384294949971" ignored="false" />
-    <file path="/ResourceNotFoundException.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384290314729" ignored="false" />
-    <file path="/dev.gradle" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384294383560" ignored="false" />
-    <file path="/gradle.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384293416025" ignored="false" />
-    <file path="/dev.properties" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384462732761" ignored="false" />
-    <file path="/kjtest.txt" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384467689486" ignored="false" />
-    <file path="/TestUtils.java" changelist="f0891234-b7c7-4dab-9774-ef8ea6701c0e" time="1384688265970" ignored="false" />
-=======
     <list default="true" id="322592b7-eb4d-4ccc-89ba-4506e796f6db" name="Default" comment="" />
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="322592b7-eb4d-4ccc-89ba-4506e796f6db" time="1386502302687" ignored="false" />
->>>>>>> origin/mongojack
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,26 +19,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-<<<<<<< HEAD
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java" line="66" class="kj.rest.dao.PostDaoImplTest$2" package="kj.rest.dao">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-=======
->>>>>>> origin/mongojack
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -198,32 +68,12 @@
       <file leaf-file-name="Comment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/domain/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="87" column="49" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
-=======
             <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
->>>>>>> origin/mongojack
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="ResponseCodeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/ResponseCodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostDaoImplTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="59" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-              <folding />
-=======
       <file leaf-file-name="BlogService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/service/BlogService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -231,7 +81,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> origin/mongojack
             </state>
           </provider>
         </entry>
@@ -239,11 +88,7 @@
       <file leaf-file-name="PostDaoImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="69" column="16" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.04054054">
-=======
             <state line="19" column="52" selection-start="564" selection-end="564" vertical-scroll-proportion="0.44392523">
->>>>>>> origin/mongojack
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,18 +96,6 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="TestUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
->>>>>>> origin/mongojack
     </leaf>
   </component>
   <component name="FindManager">
@@ -278,144 +111,6 @@
       <MyDateState />
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="GradleLocalSettings">
-    <option name="availableTasks">
-      <list>
-        <GradleTaskDescriptor>
-          <option name="description" value="Compiles the test Java source." />
-          <option name="name" value="compileTestJava" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles the outputs of this project." />
-          <option name="name" value="assemble" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Starts the container, deploys WAR to it and then do other tasks (for example, execute tests)." />
-          <option name="name" value="cargoStartLocal" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project." />
-          <option name="name" value="build" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Redeploys WAR to remote container." />
-          <option name="name" value="cargoRedeployRemote" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles the main classes." />
-          <option name="name" value="classes" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Undeploys WAR from remote container." />
-          <option name="name" value="cargoUndeployRemote" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Deletes the build directory." />
-          <option name="name" value="clean" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Deploys WAR to remote container." />
-          <option name="name" value="cargoDeployRemote" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Uploads all artifacts belonging to configuration ':archives'" />
-          <option name="name" value="uploadArchives" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Compiles the main Java source." />
-          <option name="name" value="compileJava" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Stops local container." />
-          <option name="name" value="cargoStopLocal" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs the unit tests." />
-          <option name="name" value="test" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-          <option name="name" value="buildDependents" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles the test classes." />
-          <option name="name" value="testClasses" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Processes the main resources." />
-          <option name="name" value="processResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
-          <option name="name" value="war" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Generates Javadoc API documentation for the main source code." />
-          <option name="name" value="javadoc" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project and all projects it depends on." />
-          <option name="name" value="buildNeeded" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Processes the test resources." />
-          <option name="name" value="processTestResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Starts the container, deploys WAR to it and wait for the user to press CTRL + C to stop." />
-          <option name="name" value="cargoRunLocal" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles a jar archive containing the main classes." />
-          <option name="name" value="jar" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs all checks." />
-          <option name="name" value="check" />
-        </GradleTaskDescriptor>
-      </list>
-    </option>
-    <option name="expandStates">
-      <map>
-        <entry key="Blog" value="true" />
-        <entry key="Blog/Blog" value="true" />
-        <entry key="dependencies/Blog/Blog" value="false" />
-      </map>
-    </option>
-    <option name="recentTasks">
-      <list>
-        <GradleTaskDescriptor>
-          <option name="executorId" value="Run" />
-          <option name="name" value="clean" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="executorId" value="Run" />
-          <option name="name" value="cargoRedeployRemote" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="executorId" value="Run" />
-          <option name="name" value="war" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="executorId" value="Run" />
-          <option name="name" value="jar" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="executorId" value="Run" />
-          <option name="name" value="test" />
-        </GradleTaskDescriptor>
-      </list>
-    </option>
-    <option name="userProjectChanges">
-      <GradleAddLibraryDependencyUserChange>
-        <option name="dependencyName" value="lib" />
-        <option name="moduleName" value="Blog" />
-      </GradleAddLibraryDependencyUserChange>
-    </option>
-  </component>
-=======
->>>>>>> origin/mongojack
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -787,40 +482,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="803" extended-state="6" />
-<<<<<<< HEAD
-    <editor active="false" />
-    <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32796487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855093" sideWeight="0.67203516" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.5688456" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4589708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24748924" sideWeight="0.67203516" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53129345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-=======
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -850,7 +511,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
->>>>>>> origin/mongojack
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -918,93 +578,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="49" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/ResponseCodeTest.java">
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/domain/Comment.java">
->>>>>>> origin/mongojack
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="16" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kj/rest/dao/PostDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="59" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/common/ConfigurationInjectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/environment/dev/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="34" selection-end="39" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/integrationTest/resources/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/environment/test/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="62" selection-end="62" vertical-scroll-proportion="0.072961375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="49" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/service/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="25" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
@@ -1017,45 +597,29 @@
     <entry file="file://$PROJECT_DIR$/Blog.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
->>>>>>> origin/mongojack
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/integrationTest/java/integration/ResponseCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/domain/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
->>>>>>> origin/mongojack
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/service/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="52" column="59" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-          <folding />
-=======
         <state line="21" column="25" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> origin/mongojack
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kj/rest/dao/PostDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="69" column="16" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.04054054">
-=======
         <state line="19" column="52" selection-start="564" selection-end="564" vertical-scroll-proportion="0.44392523">
->>>>>>> origin/mongojack
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
