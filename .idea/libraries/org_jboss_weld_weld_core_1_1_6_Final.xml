@@ -1,8 +1,0 @@
-<component name="libraryTable">
-  <library name="org.jboss.weld:weld-core:1.1.6.Final" type="repository">
-    <properties maven-id="org.jboss.weld:weld-core:1.1.6.Final" />
-    <CLASSES />
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
