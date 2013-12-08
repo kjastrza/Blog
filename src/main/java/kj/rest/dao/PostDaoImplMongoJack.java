@@ -1,16 +1,5 @@
 package kj.rest.dao;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.collect.Lists;
-import com.mongodb.*;
-import kj.rest.common.ConfigValue;
-import kj.rest.common.ResourceNotFoundException;
-import kj.rest.domain.Comment;
-import kj.rest.domain.Post;
-import org.bson.types.ObjectId;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import javax.annotation.PostConstruct;
 import javax.enterprise.inject.Default;
 import javax.inject.Inject;
@@ -18,13 +7,35 @@ import java.net.UnknownHostException;
 import java.util.Date;
 import java.util.List;
 
+import com.google.common.annotations.VisibleForTesting;
+import com.google.common.collect.Lists;
+import com.mongodb.BasicDBList;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.WriteResult;
+import kj.rest.common.ConfigValue;
+import kj.rest.common.ResourceNotFoundException;
+import kj.rest.domain.Comment;
+import kj.rest.domain.Post;
+import org.bson.types.ObjectId;
+import org.mongojack.DBQuery;
+import org.mongojack.DBUpdate;
+import org.mongojack.JacksonDBCollection;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Created with IntelliJ IDEA.
  * User: SG0891891
  * Date: 8/31/13
  * Time: 8:46 PM
  */
-public class PostDaoImpl {
+@Default
+public class PostDaoImplMongoJack implements PostDao {
     static final String CONTENT = "content";
     static final String TITLE = "title";
     static final String CREATION_DATE = "creationDate";
@@ -44,6 +55,7 @@ public class PostDaoImpl {
     private String dbName;
 
     private DB db;
+    private JacksonDBCollection<Post, String> coll;
 
     @VisibleForTesting
     public void setDb(DB db) {
@@ -54,24 +66,25 @@ public class PostDaoImpl {
     public void afterConstruction() {
         try {
             db = new MongoClient(host, Integer.parseInt(port)).getDB(dbName);
+            coll = JacksonDBCollection.wrap(db.getCollection(POSTS_COLLECTION), Post.class, String.class);
         } catch (UnknownHostException e) {
             logger.error("Error while creating mongo client", e);
             throw new IllegalStateException(e);
         }
     }
 
-    
+    @Override
     public String create(Post post) {
-        DBCollection postsCollection = db.getCollection(POSTS_COLLECTION);
-        BasicDBObject document = new BasicDBObject();
-        document.put(CONTENT, post.getContent());
-        document.put(TITLE, post.getTitle());
-        document.put(CREATION_DATE, post.getCreationDate());
-        postsCollection.insert(document);
-        String postId = getCreatedId(document);
+        org.mongojack.WriteResult<Post, String> insertResult = coll.insert(post);
+        String postId = insertResult.getSavedId();
         logger.info("New Post Created With Id: [ " + postId + " ]");
 
         return postId;
+    }
+
+    @Override
+    public void markAsDisplayed(String title) {
+        coll.updateMulti(DBQuery.is("title", title), DBUpdate.set("displayed", true));
     }
 
     @VisibleForTesting
@@ -79,17 +92,11 @@ public class PostDaoImpl {
         return String.valueOf(document.get(ID));
     }
 
-    
+    @Override
     public String createComment(String postId, Comment comment) {
-        DBCollection collection = db.getCollection(POSTS_COLLECTION);
-        BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
         ObjectId newCommentId = new ObjectId();
-        BasicDBObject newDocument = new BasicDBObject();
-        newDocument.put(ID, newCommentId);
-        newDocument.put(CONTENT, comment.getContent());
-        BasicDBObject updateObj = new BasicDBObject();
-        updateObj.put("$push", new BasicDBObject(COMMENTS, newDocument));
-        collection.update(query, updateObj);
+        comment.setId(newCommentId.toString());
+        coll.updateById(postId, DBUpdate.push(COMMENTS, comment));
 
         return String.valueOf(newCommentId);
     }
@@ -99,7 +106,7 @@ public class PostDaoImpl {
         return new ObjectId(postId);
     }
 
-    
+    @Override
     public String deleteComment(String postId, String commentId) {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
@@ -113,7 +120,7 @@ public class PostDaoImpl {
         return String.valueOf(result);
     }
 
-    
+    @Override
     public String updateContent(String postId, String content) {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
@@ -126,7 +133,7 @@ public class PostDaoImpl {
         return update.toString();
     }
 
-    
+    @Override
     public String delete(String postId) {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject query = new BasicDBObject(ID, createObjectId(postId));
@@ -135,7 +142,7 @@ public class PostDaoImpl {
         return result.toString();
     }
 
-    
+    @Override
     public Post find(String postId) throws ResourceNotFoundException {
         DBCollection collection = db.getCollection(POSTS_COLLECTION);
         BasicDBObject searchQuery;
@@ -155,7 +162,7 @@ public class PostDaoImpl {
         return post;
     }
 
-    
+    @Override
     public List<Post> findAll() {
         List<Post> posts = Lists.newArrayList();
         DBCollection collection = db.getCollection(POSTS_COLLECTION);

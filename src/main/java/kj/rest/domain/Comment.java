@@ -1,5 +1,8 @@
 package kj.rest.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import org.mongojack.ObjectId;
+
 /**
  * Created with IntelliJ IDEA.
  * User: SG0891891
@@ -10,10 +13,14 @@ public class Comment {
     private String id;
     private String content;
 
+    @ObjectId
+    @JsonProperty("_id")
     public String getId() {
         return id;
     }
 
+    @ObjectId
+    @JsonProperty("_id")
     public void setId(String id) {
         this.id = id;
     }

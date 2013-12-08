@@ -84,4 +84,11 @@ public class BlogService {
         String result = postDao.deleteComment(postId, commentId);
         return Response.status(200).entity(result).build();
     }
+
+    @PUT
+    @Path("/markasread")
+    public Response markAsDisplayed(@QueryParam("title") String title) {
+        postDao.markAsDisplayed(title);
+        return Response.status(200).build();
+    }
 }
