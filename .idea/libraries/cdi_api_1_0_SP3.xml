@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="cdi-api-1.0-SP3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/javax.enterprise/cdi-api/1.0-SP3/jar/a106a0fba113c68357dca7ee0bf31667a8e73a76/cdi-api-1.0-SP3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/javax.enterprise/cdi-api/1.0-SP3/source/a1cfa1d61d95dbaf8bc4e59f41362e390fe3117e/cdi-api-1.0-SP3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
